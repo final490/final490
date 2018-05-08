@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+	<html>
+	<body bgcolor="#EBDA87">
+	
+  Welcome Admin
+
+	<form method="post" action="do_logout.php">
+	<input type="submit" name="logout" value="LOGOUT" />	
+	</form>
+
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+<div class="topnav">
+  <a class="active" href="admin_index.html">Home</a>
+  <a href="admin_create_profile.html">Create Profile</a>
+  <a href="admin_search_people.html">Search People</a>
+  <a href="admin_add_events.html">Add Events</a>
+  <a href="admin_list_events.html">List Events</a>
+</div>
+
+	
+		<head>
+			<title>Loving Seniors</title>
+		</head>
+
+	<body>
+  
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+.bg {
+    /* The image used */
+    background-image: url("banner.jpg");
+
+    /* Full height */
+    height: 50%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+</style>
+</head>
+<body>
+
+<div class="bg"></div>
+
+		<h1>Create Your Profile</h1><br />
+
+		<form action="insert.php" method="post">
+
+		Name:&nbsp;<input type="text" name="name" value="">
+		<br>
+		Age: &nbsp;&nbsp;&nbsp;<input type="text" name="age" Value="" size="5">
+		<br>
+		<input type="radio" name="gender" value="Male" checked> Male<br>
+  		<input type="radio" name="gender" value="Female"> Female<br>
+  		<input type="radio" name="gender" value="Other"> Other<br>
+  		Registration Date: <input type="date" name="registrationDate"><br>
+  		<br>
+  		<input type="submit" value="Create Profile">
+  		<input type="reset">
+  		</form>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+	</body>
+</html>
