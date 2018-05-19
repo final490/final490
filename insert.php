@@ -39,7 +39,7 @@
 			echo'You profile has been successfully inserted';
 		}
 
-		header("refresh:5; url=user_search_people.html");
+		header("refresh:3; url=user_search_people.html");
 	?>
 
 	</body>
